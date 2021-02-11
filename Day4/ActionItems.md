@@ -10,7 +10,7 @@
 
 ## The dataset
 ### Luckily there's an available dataset on Kaggle [here](https://www.kaggle.com/andrewmvd/face-mask-detection), it contains 853 images along with their annotations indicating 3 classes person is _wearing a mask correctly_, _incorrectly_ or _not wearing it_.
-![here's a peak into the data](Day4/Screenshot%20from%202021-02-11%2019-54-38.png)
+![here's a peak into the data](https://github.com/nouranali/SureStart_VAILTraining/blob/master/Day4/Screenshot%20from%202021-02-11%2019-54-38.png)
 ### This dataset is also suitable as it has images from streets, tv, schools, crowded areas and many places so it's a good one for generalization.
 
 ## The Algorithm.
