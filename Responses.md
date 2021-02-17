@@ -54,12 +54,12 @@ I chose this model as I encountered this problem many times and it just hit my m
 I also rely on domain experts knowledge to make sure that the data isn't biased.
 ***
 ## 17/2/2021: Day 10
-1. The main difference between a CNN and a Fully connected NN is that CNNs enable deep learning for computer vision tasks like: image classification, object detection and so on. while Fully connected NN is a neural nework where all nerons in one layer are connected to all the neurons in the folllowing layer.
+1. The main difference between a CNN and a Fully connected NN is that CNNs enable deep learning for computer vision tasks like image classification, object detection and so on. while Fully connected NN is a neural network where all neurons in one layer are connected to all the neurons in the following layer.
 2. The layers of a CNN vary: 
-  2.1 Convolution layer/ filter : this layer acts as a feature extractor that scans the image pixels to create a feature map.
-  2.2 pooling layer / downsampling layer: this layer reduces the amount of info. obtained in feature maps but also maintains the most important features most popular is average pooling and max pooling.
-  2.3 input flatteining layer: this layer flattens the output of the previous layers into one vector.
-  2.4 first fully connected layer: predict correct label by applying weigths on the feature maps
+  2.1 Convolution layer/ filter: this layer acts as a feature extractor that scans the image pixels to create a feature map.
+  2.2 pooling layer/downsampling layer: this layer reduces the amount of info. obtained in feature maps but also maintains the most important features most popular are average pooling and max pooling.
+  2.3 input flattening layer: this layer flattens the output of the previous layers into one vector.
+  2.4 first fully connected layer: predict correct label by applying weights on the feature maps
   2.5 output fully connected layer: predict probability of each layer.
 3. layers of the Fully connected neural network: consists of dense layers of neurons
 4. for both architectures sometimes a dropout layer is added to avoid overfitting.
@@ -68,4 +68,4 @@ I also rely on domain experts knowledge to make sure that the data isn't biased.
   5.2 : Image segmentation
   5.3 : object detection and localization
   5.4 : image construction
-6. applications of Fully connected neural networks: it's a generic architecture that doesn't sepcialize in a certain domain like nlp or computer vision and can be used but it has downsides when used in computer vision as they don't give good results and are computationally expensive, prone to overfitting
+6. applications of Fully connected neural networks: it's a generic architecture that doesn't specialize in a certain domain like NLP or computer vision and can be used but it has downsides when used in computer vision as they don't give good results and are computationally expensive, prone to overfitting
