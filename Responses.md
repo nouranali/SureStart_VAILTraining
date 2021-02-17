@@ -38,7 +38,7 @@ you can find the action items [here](https://github.com/nouranali/SureStart_VAIL
 So today I've worked on the MNIST handwritten digits recognition dataset, I applied a simple CNN architecture and submitted the solution on Kaggle, I had much fun. Also we today had our standup meeting and discussed the difficulties that faced us in the previous action items.
 
 ***
-## 15/2/2021: Day 9
+## 16/2/2021: Day 9
 1. In the design of the game the common concepts of ML were utilized in a simple way. 
 Collecting data: this concept was utilized in my selection of accepting/rejecting candidates based on their resumes
 Training the model: building the automated hiring algorithm based on historical data that I collected
@@ -53,3 +53,19 @@ I chose this model as I encountered this problem many times and it just hit my m
 3. When Constructing AI projects I avoid biases by making sure that the dataset correctly resembles the real world, if it's not I'd resample it in any way.
 I also rely on domain experts knowledge to make sure that the data isn't biased.
 ***
+## 17/2/2021: Day 10
+1. The main difference between a CNN and a Fully connected NN is that CNNs enable deep learning for computer vision tasks like: image classification, object detection and so on. while Fully connected NN is a neural nework where all nerons in one layer are connected to all the neurons in the folllowing layer.
+2. The layers of a CNN vary: 
+  2.1 Convolution layer/ filter : this layer acts as a feature extractor that scans the image pixels to create a feature map.
+  2.2 pooling layer / downsampling layer: this layer reduces the amount of info. obtained in feature maps but also maintains the most important features most popular is average pooling and max pooling.
+  2.3 input flatteining layer: this layer flattens the output of the previous layers into one vector.
+  2.4 first fully connected layer: predict correct label by applying weigths on the feature maps
+  2.5 output fully connected layer: predict probability of each layer.
+3. layers of the Fully connected neural network: consists of dense layers of neurons
+4. for both architectures sometimes a dropout layer is added to avoid overfitting.
+5. Some applications of CNN: mainly computer vision tasks
+  5.1 : Image classification
+  5.2 : Image segmentation
+  5.3 : object detection and localization
+  5.4 : image construction
+6. applications of Fully connected neural networks: it's a generic architecture that doesn't sepcialize in a certain domain like nlp or computer vision and can be used but it has downsides when used in computer vision as they don't give good results and are computationally expensive, prone to overfitting
