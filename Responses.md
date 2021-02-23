@@ -69,3 +69,11 @@ I also rely on domain experts knowledge to make sure that the data isn't biased.
   5.3 : object detection and localization \
   5.4 : image construction
 6. applications of Fully connected neural networks: it's a generic architecture that doesn't specialize in a certain domain like NLP or computer vision and can be used but it has downsides when used in computer vision as they don't give good results and are computationally expensive, prone to overfitting
+***
+## 23/2/2021: Day 16
+### Relu is one of the most widely adopted activations in DL and is certainly considered a milestone, its advantages are:
+1. simple to compute: its fairly easy to implement with python max() function, given input X return max(0,x) unlike other activations like tanh or sigmoid that require dealing with exp "higher complexity".
+2. Linearity: Relu looks and behaves like a linear function which makes it easier for a NN to optimize on, and also helps with avoiding vanishing gradients "gradient gets too small"
+3. Representational Sparsity: it can output zero and not an approximation of it which makes -ve values>>zero, this also accelerates the training.
+4. Training deep networks: 
+### Use case : used as activitaion function for concolutional layers in CNN
