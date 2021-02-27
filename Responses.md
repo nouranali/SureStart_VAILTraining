@@ -77,3 +77,7 @@ I also rely on domain experts knowledge to make sure that the data isn't biased.
 3. Representational Sparsity: it can output zero and not an approximation of it which makes -ve values>>zero, this also accelerates the training.
 4. Training deep networks: 
 ### Use case : used as activitaion function for concolutional layers in CNN
+***
+## 25/2/2021: when changing loss to a regression loss function: MSE I noticed that 
+1. accuracy dropped in a dramatic way specially in the last model
+2. validation loss is not decreasing as it should be
