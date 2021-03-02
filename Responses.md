@@ -81,3 +81,7 @@ I also rely on domain experts knowledge to make sure that the data isn't biased.
 ## 25/2/2021: when changing loss to a regression loss function: MSE I noticed that 
 1. accuracy dropped in a dramatic way specially in the last model
 2. validation loss is not decreasing as it should be
+ 
+***
+## 1/3/2021: Day 21
+I think models like GPT-2 that are not distributed opensource can have ethical risks and misuses, some entities may use it to target certain people with different opinions, races and ascpects which is not ethical. also some people may use it to create false news that go viral and firghten others. It's a great model with innovation, invention and technology but in the wrong hands can be a weapon!
